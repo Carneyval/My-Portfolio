@@ -2,7 +2,7 @@ import { ExternalLink } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 import c1 from "@/assets/SertifBNSP1.jpeg";
 import c2 from "@/assets/TOEFL-Like.jpg";
-import c3 from "@/assets/sertifNVIDIA.png";
+import c3 from "@/assets/SertifNVIDIA.png";
 import c4 from "@/assets/SertifBASS.png";
 
 const certs = [
