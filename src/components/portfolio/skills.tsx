@@ -20,6 +20,7 @@ const tools = [
   { name: "Jupyter Notebook", icon: BookOpen },
   { name: "Excel", icon: FileSpreadsheet },
   { name: "Tableau", icon: LineChart },
+  { name: "Looker Studio", icon: LineChart },
   { name: "GitHub", icon: Github },
   { name: "Figma", icon: Figma },
   { name: "Canva", icon: Palette },

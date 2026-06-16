@@ -51,8 +51,8 @@ export function Hero() {
                 View Projects <ArrowDown size={16} />
               </a>
               <a
-                href="public\Resume.pdf"
-                className="inline-flex items-center gap-2 h-12 px-6 rounded-full border border-gold/40 text-foreground font-medium text-sm hover:bg-gold/10 hover:border-gold transition-all"
+                href="/resume.pdf"
+                target="_blank" className="inline-flex items-center gap-2 h-12 px-6 rounded-full border border-gold/40 text-foreground font-medium text-sm hover:bg-gold/10 hover:border-gold transition-all"
               >
                 <Download size={16} /> Download CV
               </a>

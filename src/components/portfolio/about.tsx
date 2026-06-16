@@ -39,7 +39,7 @@ export function About() {
             </div>
 
             <a
-              href="public/Resume.pdf"
+              href="/resume.pdf"
               className="mt-10 inline-flex items-center gap-2 h-12 px-6 rounded-full gradient-gold text-gold-foreground font-medium text-sm hover-lift"
             >
               <Download size={16} /> Download CV

@@ -1,15 +1,17 @@
 import { ExternalLink } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 import c1 from "@/assets/SertifBNSP1.jpeg";
-import c2 from "@/assets/TOEFL-Like.jpg";
-import c3 from "@/assets/SertifNVIDIA.png";
-import c4 from "@/assets/SertifBASS.png";
+import c2 from "@/assets/DataAnalystVINIX7_page-0001.jpg";
+import c3 from "@/assets/TOEFL-Like.jpg";
+import c4 from "@/assets/SertifNVIDIA.png";
+import c5 from "@/assets/SertifBASS.png";
 
 const certs = [
-  { title: "Certification Scheme of Associate Data Scientist", issuer: "BADAN NASIONAL SERTIFIKASI PROFESI", date: "April 2026", image: c1, href: "public/SertifBNSP.pdf" },
-  { title: "TOEFL Like", issuer: "Center for Foreign Language Training", date: "Jan 2026", image: c2, href: "src/assets/TOEFL-Like.jpg" },
-  { title: "Getting Started with Deep Learning", issuer: "NVIDIA", date: "June 2025", image: c3, href: "https://learn.nvidia.com/certificates?id=XWFS15aMTGuiIVE3LUOVdg" },
-  { title: "AI Literacy for Everyone: Understand, Apply, Create", issuer: "BASS", date: "Oct 2025", image: c4, href: "public/CERT-EA7F7RU4QPSF.pdf" },
+  { title: "Certification Scheme of Associate Data Scientist", issuer: "BADAN NASIONAL SERTIFIKASI PROFESI", date: "April 2026", image: c1, href: "/SertifBNSP.pdf" },
+  { title: "Internship Data Analyst PT VINIX7 AURUM", issuer: "PT VINIX SEVEN AURUM", date: "June 2026", image: c2, href: "/DataAnalystVINIX7.pdf" },
+  { title: "TOEFL Like", issuer: "Center for Foreign Language Training", date: "Jan 2026", image: c3, href: "/TOEFL-Like.pdf" },
+  { title: "Getting Started with Deep Learning", issuer: "NVIDIA", date: "June 2025", image: c4, href: "https://learn.nvidia.com/certificates?id=XWFS15aMTGuiIVE3LUOVdg" },
+  { title: "AI Literacy for Everyone: Understand, Apply, Create", issuer: "BASS", date: "Oct 2025", image: c5, href: "CERT-EA7F7RU4QPSF.pdf" },
 ];
 
 export function Certifications() {
